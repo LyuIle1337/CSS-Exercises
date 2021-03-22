@@ -1,0 +1,35 @@
+table {
+    table-layout: fixed;
+    width: 30%;
+    border:none;
+    border-collapse: collapse;
+}
+
+tr:first-child {
+    background-color: lime;
+}
+
+table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+table td:last-child {
+    border-right: none;
+}
+
+tr:nth-child(odd):not(:first-child) {
+    background-color: wheat;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    padding-left: 0.5em;
+}

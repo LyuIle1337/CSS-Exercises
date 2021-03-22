@@ -1,0 +1,74 @@
+ .music-categories {
+    display: inline-block;
+    background-color: wheat;
+    border-radius: 10px;
+    margin: 10px;
+}
+.article {
+    border:solid black 1px;
+    background-color: white;
+    display: block;
+    margin: 30px 30px 50px 30px;
+    width: 420px;
+    height: 140px;
+}
+
+.paragraphsAndButtons, img, section {
+    display: inline-block;
+}
+
+.paragraphsAndButtons {
+    vertical-align: top;
+    width: 45%;
+    height: 70%;
+    padding-top: 15px;
+}
+
+img {
+    border: 1px solid black;
+    width: 40%;
+    margin: 15px;
+    height: 70%;
+}
+
+p {
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    font-size: 15px;
+}
+
+.buttons {
+    height: 35%;
+    position: relative;
+}
+
+button {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0%;
+}
+
+#listen-btn {
+    right: 0;
+}
+
+#add-btn {
+    right: 61px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+.buttons > * {
+    background-image: url(../Images/button-background-image.png);
+    color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+.paragraphs {
+    height: 70%;
+}

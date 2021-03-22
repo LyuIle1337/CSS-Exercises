@@ -1,0 +1,20 @@
+body {
+    color: #0094ff;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Consolas'
+}
+
+p {
+    width: 700px;
+    font-weight: 400;
+}
+
+p::first-line {
+    font-weight: 800;
+}
+
+p::first-letter {
+    font-family: 'Tangerine';
+    font-size: 50px;
+}

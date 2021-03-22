@@ -1,0 +1,94 @@
+.horizontal-nav-bar {
+    border-image: radial-gradient(circle, rgba(19,19,19,1) 60%, #3b3b3b 100%);
+    border-image-slice: 1;
+    border-bottom: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    margin: 15px;
+    width: 570px;
+    height: 317px;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    padding-left: 15px;
+}
+
+p, form, img, body, label, input {
+    display: inline-block;
+}
+
+p {
+    color: #a4a4a4;
+    padding-right: 10px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lastParagraph{
+    padding-bottom: 5px;
+}
+
+span, form > label, button {
+    color: #ffffff;
+}
+
+label {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #fcd619;
+    font-size: 25px;
+    font-weight:normal;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-sections {
+    height: 65%;
+}
+
+.page-header {
+    height: 25%;
+    background: #3b3b3b;
+    background: radial-gradient(circle, rgba(40,5,5,1) 0%, #3b3b3b 100%); 
+}
+
+img {
+    width: 35px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+input, label, button {
+    vertical-align: middle;
+}
+
+input {
+    width: 120px;
+    margin-right: 10px; 
+}
+
+form {
+    vertical-align: top;
+    margin-top: 18px;
+}
+
+button {
+    width: 60px;
+    border: solid 1px white;
+    border-radius: 10px;
+    height: 25px;
+    background: rgb(255,0,0);
+    box-shadow:inset 0px 5px 15px white;
+}
+
+::-webkit-input-placeholder {
+    padding-left: 15px;
+}

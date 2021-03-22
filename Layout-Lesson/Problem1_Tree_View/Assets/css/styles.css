@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+}
+
+li:hover {
+    cursor: grab;
+}
+
+.dropdown-item {
+    display: none;
+}
+
+.dropdown:hover .dropdown-item {
+    display: block;
+}
+
+.menu {
+    display: inline-block;
+}
+
+body .menu > li:hover:not(:first-child), span:hover {
+    text-decoration: underline;
+}
+
+.dropdown-item > li {
+    color: green;
+}

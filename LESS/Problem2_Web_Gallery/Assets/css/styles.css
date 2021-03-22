@@ -1,0 +1,21 @@
+.mixin-selectedImage {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+}
+* {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.tab div {
+  display: none;
+}
+.tab div:target {
+  display: block;
+}
+.tab div:target img {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+}
